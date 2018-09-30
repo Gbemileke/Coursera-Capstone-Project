@@ -15,50 +15,95 @@ Example Data features extract from New York datasets are:
  'geometry': {'type': 'Point',
  
   'coordinates': [-73.97347087708445, 40.59526001306593]},
+  
  'geometry_name': 'geom',
+ 
  'properties': {'name': 'Gravesend',
+ 
   'stacked': 1,
+  
   'annoline1': 'Gravesend',
+  
   'annoline2': None,
+  
   'annoline3': None,
+  
   'annoangle': 0.0,
+  
   'borough': 'Brooklyn',
+  
   'bbox': [-73.97347087708445,
+  
    40.59526001306593,
+   
    -73.97347087708445,
+   
    40.59526001306593]}}
+   
 Example Data features extract from Foursquare are:
+
 {'meta': {'code': 200, 'requestId': '5bb0782e6a607169104e9cad'},
+
  'response': {'suggestedFilters': {'header': 'Tap to show:',
+ 
    'filters': [{'name': '$-$$$$', 'key': 'price'},
+   
     {'name': 'Open now', 'key': 'openNow'}]},
+    
   'headerLocation': 'Bay Ridge',
+  
   'headerFullLocation': 'Bay Ridge, Brooklyn',
+  
   'headerLocationGranularity': 'neighborhood',
+  
   'totalResults': 90,
+  
   'suggestedBounds': {'ne': {'lat': 40.63030106951066,
+  
     'lng': -74.02470273356597},
+    
    'sw': {'lat': 40.62130106051065, 'lng': -74.03653865351028}},
+   
   'groups': [{'type': 'Recommended Places',
-    'name': 'recommended',
+  
+   'name': 'recommended',
+    
     'items': [{'reasons': {'count': 0,
+    
        'items': [{'summary': 'This spot is popular',
+       
          'type': 'general',
+         
          'reasonName': 'globalInteractionReason'}]},
+         
       'venue': {'id': '4b895827f964a5206c2d32e3',
+
        'name': 'Pilo Arts Day Spa and Salon',
+       
        'location': {'address': '8412 3rd Ave',
+       
         'lat': 40.62474788273414,
+        
         'lng': -74.03059056940135,
+        
         'labeledLatLngs': [{'label': 'display',
+        
           'lat': 40.62474788273414,
+          
           'lng': -74.03059056940135}],
+          
         'distance': 117,
+        
         'postalCode': '11209',
+        
         'cc': 'US',
+        
         'city': 'Brooklyn',
+        
         'state': 'NY',
+        
         'country': 'United States',
+        
         'formattedAddress': ['8412 3rd Ave',
          'Brooklyn, NY 11209',
          'United States']},

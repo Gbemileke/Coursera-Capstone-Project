@@ -7,8 +7,9 @@ Online shopping has become a common phenomenon and part of consumer's daily life
 ### Method of Data Collection and Analysis
 The data for this project is obtained from New York geodata from [5]  and the Foursquare location data to solve the aforementioned business problem. First, the datasets comprising of   Borough, Neighborhood, Latitude, and 	Longitude were created using Pandas library in Python. Then, we select Brooklyn Borough data from New York. Next, the Brooklyn borough neighborhoods are explored using the Foursquare website. Finally, descriptive statistics, data visualization charts, and K-means clustering method will be used to examine the characteristics of the neighborhoods and find suitable locations to recommend for delivery locker location.
 Example Data features extract from New York datasets are:
-{'type': 'Feature', \n
- 'id': 'nyu_2451_34572.51', \n
+
+{'type': 'Feature', --
+ 'id': 'nyu_2451_34572.51', 
  'geometry': {'type': 'Point',
   'coordinates': [-73.97347087708445, 40.59526001306593]},
  'geometry_name': 'geom',
